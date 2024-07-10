@@ -63,8 +63,6 @@ Explore Netlify Features: Take some time to navigate through your dashboard and 
 
 since my register is not smooth as above, i'll explain some of my problem register
 
-![alt text](image.png)
-
 **how to handle this?**
 i suggest you to contat support to fix the problem and send some of the proving document by email. Netlify team will help you to fix it. Dont worry, we just need to wait at least 24 hours, but sometimes less. so after that try to login again.
 
