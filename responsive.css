@@ -177,6 +177,17 @@ nav ul li a:hover {
         border-radius: 0 0 50px 50px;
     }
 
+    #facility {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .facility, .facility2 {
+        width: 100%;
+    }
+
+
     .facility-title h1 {
         font-size: 50px;
     }
@@ -228,6 +239,15 @@ nav ul li a:hover {
         flex-basis: calc((100% - 60px) / 2);
         border-radius: 15px;
     }
+
+    
+    .package-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
 }
 
 @media screen and (max-width: 458px) {
@@ -311,6 +331,16 @@ nav ul li a:hover {
     .about-image picture > img {
         border-radius: 0 0 50px 50px;
     }
+    
+    #facility {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .facility, .facility2 {
+        width: 100%;
+    }
 
     .facility-title h1 {
         font-size: 40px;
@@ -334,13 +364,13 @@ nav ul li a:hover {
         grid-area: 7 / 1 / 9 / 5;
     }
     .five {
-        grid-area: 1 / 1 / 3 / 9;
+        grid-area: 1 / 1 / 2 / 5;
     }
     .six {
-        grid-area: 3 / 1 / 3 / 4;
+        grid-area: 2 / 1 / 3 / 5;
     }
     .seven {
-        grid-area: 3 / 4 / 4 / 9;
+        grid-area: 3 / 1 / 3 / 5;
     }
 
     .items h2 {
@@ -368,6 +398,14 @@ nav ul li a:hover {
         min-width: 350px;
         border-radius: 15px;
     }
+
+    .package-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
 }
 
 

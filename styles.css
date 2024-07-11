@@ -72,7 +72,6 @@ nav {
     margin: 30px;
 }
 
-
 nav ul {
     list-style: none;
     padding-right: 20px;
@@ -148,6 +147,7 @@ nav ul li a {
     background-color: rgb(22, 192, 184);;
     color: white;
     border: none;
+    margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -173,16 +173,24 @@ nav ul li a {
     transition: 2s;
 }
 
+#facility {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 .facility {
     background-color: #f5f5f5;
     padding-left: 50px;
     padding-right: 50px;
+    width: 50%;
 }
 
 .facility2 {
     background-color: #cee9de;
     padding-left: 50px;
     padding-right: 50px;
+    width: 50%;
     max-height: fit-content;
 }
 
@@ -232,8 +240,8 @@ nav ul li a {
     text-align: center;
     font-size: 16px;
     transition: 2s;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .activities-container {
@@ -269,7 +277,6 @@ nav ul li a {
 }
 
 .photo {
-    background-color: #cee9de;
     height: 400px;
     padding: 50px;
     border-radius: 10px;
@@ -351,6 +358,13 @@ nav ul li a {
     color: black;
 }
 
+#academy-packages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cee9de;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 .package-container {
     display: grid;
